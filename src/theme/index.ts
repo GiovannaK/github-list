@@ -35,10 +35,10 @@ const theme = createTheme({
       fontSize: '1.5rem',
     },
     h5: {
-      fontSize: '1.3rem',
+      fontSize: '1rem',
     },
     h6: {
-      fontSize: '1rem',
+      fontSize: '0.7rem',
     },
   },
 });
