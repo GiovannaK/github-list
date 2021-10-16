@@ -10,7 +10,7 @@ export const NavBar = () => {
     <Box sx={{ flexGrow: 1 }}>
       <AppBar position="static" className={classes.appBar}>
         <Toolbar>
-          <Box className={classes.logoContainer}>
+          <Box>
             <img
               className={classes.logo}
               src="logo.png"

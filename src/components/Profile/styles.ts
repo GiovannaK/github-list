@@ -8,20 +8,9 @@ export const useStyles = makeStyles((theme: Theme) => ({
     background: 'black',
   },
   dataContainer: {
-    [theme.breakpoints.down('xl')]: {
-			marginBottom: theme.spacing(6)
-		},
-		[theme.breakpoints.up('md')]: {
-			marginBottom: theme.spacing(6)
-		},
-		[theme.breakpoints.down('sm')]: {
-			marginBottom: theme.spacing(2)
-		},
-		[theme.breakpoints.down('xs')]: {
-			marginBottom: theme.spacing(2)
-		}
+    marginTop: theme.spacing(6)
   },
-  subtitle: {
+  subtitledata: {
     paddingTop: theme.spacing(1),
     color: theme.palette.secondary.light,
     fontSize: theme.spacing(1.3),

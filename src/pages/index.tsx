@@ -5,11 +5,10 @@ import { ContainerComponent } from '../components/Container'
 import { NavBar } from '../components/NavBar'
 import { PaperComponent } from '../components/PaperComponent'
 import { Profile } from '../components/Profile'
+import { RepoCard } from '../components/RepoCard'
 import { Search } from '../components/Search'
-import { useStyles } from '../styles/Home'
 
 const Home: NextPage = () => {
-  const classes = useStyles()
   return (
     <PaperComponent>
       <NavBar />
@@ -17,6 +16,7 @@ const Home: NextPage = () => {
         <Box mt={2}>
           <Search />
           <Profile />
+          <RepoCard />
         </Box>
       </ContainerComponent>
     </PaperComponent>

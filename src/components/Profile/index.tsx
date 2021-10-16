@@ -26,42 +26,42 @@ export const Profile = () => {
             Your Name
         </Typography>
         <Grid container className={classes.dataContainer}>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
-            <Typography variant="h5" className={classes.subtitle}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+            <Typography variant="h5" className={classes.subtitledata}>
               usermame
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
             <Typography variant="h5" className={classes.data}>
               myusername
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
-            <Typography variant="h5" className={classes.subtitle}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+            <Typography variant="h5" className={classes.subtitledata}>
               company
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
             <Typography variant="h5" className={classes.data}>
               yourCompany
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
-            <Typography variant="h5" className={classes.subtitle}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+            <Typography variant="h5" className={classes.subtitledata}>
               Location
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
             <Typography variant="h5" className={classes.data}>
               Brazil
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
-            <Typography variant="h5" className={classes.subtitle}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
+            <Typography variant="h5" className={classes.subtitledata}>
               Blog
             </Typography>
           </Grid>
-          <Grid xs={6} sm={6} md={6} lg={6} xl={6}>
+          <Grid item xs={6} sm={6} md={6} lg={6} xl={6}>
             <Typography variant="h5" className={classes.data}>
               http://example.com
             </Typography>

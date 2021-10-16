@@ -8,9 +8,6 @@ export const useStyles = makeStyles((theme: Theme) => ({
     boxShadow: 'none',
     width: '100%'
   },
-  logoContainer: {
-
-  },
   logo: {
     paddingTop: theme.spacing(0.5),
     width: '25%'
