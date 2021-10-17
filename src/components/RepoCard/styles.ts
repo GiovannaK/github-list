@@ -9,6 +9,7 @@ export const useStyles = makeStyles((theme: Theme) => ({
     webkitBackdropFilter: 'blur( 3.5px )',
     borderRadius: '10px',
     border: '1px solid rgba( 255, 255, 255, 0.18 )',
+    minHeight: 250,
   },
   cardContent: {
 

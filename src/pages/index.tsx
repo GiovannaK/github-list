@@ -1,6 +1,7 @@
 import { Grid } from '@mui/material'
 import { Box } from '@mui/system'
 import type { NextPage } from 'next'
+import { useState } from 'react'
 import { ContainerComponent } from '../components/Container'
 import { NavBar } from '../components/NavBar'
 import { PaperComponent } from '../components/PaperComponent'

@@ -1,22 +1,35 @@
-import { Grid, InputBase } from '@mui/material'
-import React from 'react'
+import { Button, Grid, InputBase } from '@mui/material'
+import React, { useContext, useState } from 'react'
+import { GithubContext } from '../../context/githubContext'
 import { useStyles } from './styles'
 
-export const Search = () => {
+export const Search = ({getQuery}: any) => {
   const classes = useStyles()
+  const [usernameForSearch, setUsernameForSearch] = useState('');
+  const {fetchUser} = useContext(GithubContext)
+  const submitGetUser = () => {
+    if (!usernameForSearch) return;
+    return fetchUser(usernameForSearch);
+  };
   return (
-    <div>
+    <>
       <Grid
         container
         justifyContent="center"
+        alignItems="center"
       >
-        <Grid item xs={12} sm={12} md={8} lg={8} xl={8}>
+        <Grid item xs={10} sm={10} md={10} lg={10} xl={10}>
           <InputBase
-          className={classes.input}
-          placeholder="Buscar usuário"
-        />
+            className={classes.input}
+            placeholder="Buscar usuário"
+            onChange={(event) => setUsernameForSearch(event.target.value)}
+            value={usernameForSearch}
+          />
+        </Grid>
+        <Grid item xs={2} sm={2} md={2} lg={2} xl={2}>
+          <Button onClick={submitGetUser}>search</Button>
         </Grid>
       </Grid>
-    </div>
+    </>
   )
 }

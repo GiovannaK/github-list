@@ -5,10 +5,9 @@ export const useStyles = makeStyles((theme: Theme) => ({
   picture: {
     width: 300,
     borderRadius: '50%',
-    background: 'black',
   },
   dataContainer: {
-    marginTop: theme.spacing(6)
+    marginBottom: theme.spacing(6)
   },
   subtitledata: {
     paddingTop: theme.spacing(1),
@@ -25,5 +24,14 @@ export const useStyles = makeStyles((theme: Theme) => ({
     color: theme.palette.secondary.dark,
     fontWeight: 'bold',
     fontSize: theme.spacing(1.3)
+  },
+  svg: {
+    width: '50%'
+  },
+  svgContainer: {
+    marginTop: theme.spacing(3)
+  },
+  fallbackText: {
+    paddingTop: theme.spacing(2)
   }
 }))
