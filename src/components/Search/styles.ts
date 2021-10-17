@@ -9,4 +9,7 @@ export const useStyles = makeStyles((theme: Theme) => ({
     borderRadius: '10px',
     width: '100%'
   },
+  icon: {
+    fontSize: '2rem'
+  }
 }))
