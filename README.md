@@ -1,6 +1,6 @@
 # 📃 GITHUBLIST
 
-## SEE PREVIEW HERE: Soon
+## SEE PREVIEW HERE: https://githublist.netlify.app/
 ---
 
 ![Project Image](public/githublist.png)
