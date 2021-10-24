@@ -38,6 +38,7 @@ export type typeRepos = {
   name: string,
   full_name: string,
   url: string,
+  html_url: string
 }
 
 export interface IRepos extends Array<typeRepos>{}

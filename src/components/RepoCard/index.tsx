@@ -26,7 +26,8 @@ export const RepoCard = () => {
                   Full name: {repo.full_name}
               </Typography>
               <Link
-                href={repo.url}
+                href={repo.html_url}
+                target="_blank"
                 className={classes.link}
                 >
                   {repo.name}
